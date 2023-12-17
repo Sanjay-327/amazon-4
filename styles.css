@@ -1,0 +1,21 @@
+.container{
+    background-color: lightcoral;
+}
+ .image img{
+    width: 100vw;
+    
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.main-body{
+    display: flex;
+    gap: 80px;
+}
+.container-fluid img{
+    
+    transform: translateX(-600px);
+    transform: scale(0.6);
+}
